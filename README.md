@@ -21,41 +21,8 @@
    - เวลาพระอาทิตย์ตก (`sys.sunset`)
    - รูปภาพที่ตรงกับสภาพอากาศ เช่น ฝนตก, แดดออก ฯลฯ
 
-## วิธีการติดตั้งและใช้งาน
-
-1. **Clone โปรเจกต์**
-
-   ```bash
-   git clone https://github.com/yourusername/weather_app.git
-   cd weather_app
-   ```
-
-2. **ติดตั้ง Dependencies**
-
-   ใช้คำสั่ง `flutter` เพื่อติดตั้ง dependencies ที่จำเป็น
-
-   ```bash
-   flutter pub get
-   ```
-
-3. **เพิ่ม API Key**
-
-   แก้ไขไฟล์ที่เกี่ยวข้องกับการดึงข้อมูลจาก API เพื่อใส่ API Key ของคุณลงไป:
-
-   ```dart
-   final response = await http.get(Uri.parse(
-       'https://api.openweathermap.org/data/2.5/weather?q=$cityName&appid=YOUR_API_KEY'));
-   ```
-
-4. **รันแอป**
-
-   ใช้คำสั่ง `flutter run` เพื่อรันแอปพลิเคชัน
-
-   ```bash
-   flutter run
-   ```
-
 ## วิธีการใช้โปรแกรม
+![image](https://github.com/user-attachments/assets/5e694ef2-0188-40f9-a629-cd7452bdd686)
 
 1. **เปิดแอป**: เมื่อแอปพลิเคชันถูกเปิดขึ้น จะเห็นหน้าแรกที่แสดงรายการชื่อเมือง
 
